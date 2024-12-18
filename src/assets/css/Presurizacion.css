@@ -1,0 +1,25 @@
+.presurizacion-view {
+    padding: 20px;
+  }
+  
+  .system-status {
+    margin-bottom: 20px;
+  }
+  
+  .system-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .metrics-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .metric-gauge {
+    width: 200px;
+    text-align: center;
+  }
+  
