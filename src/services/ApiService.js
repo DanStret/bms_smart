@@ -1,7 +1,8 @@
 import axios from "axios";
 
+// Configurar la baseURL dinámicamente según el entorno
 const api = axios.create({
-  baseURL: "http://127.0.0.1:5000/api/systems",
+  baseURL: process.env.REACT_APP_API_URL || "https://api-flask-tg2f.onrender.com/api/systems",
   headers: { "Content-Type": "application/json" },
 });
 
